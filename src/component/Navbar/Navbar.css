@@ -1,0 +1,79 @@
+.mainNav{
+    background-color: aqua;
+    height: 70px;
+}
+.lists{
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+}
+.lists .brand{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.lists .items ul{
+    list-style: none;
+    display: flex;
+}
+.lists .items ul li{
+    margin-left: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.lists .navButton button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.lists .navButton button .size{
+    font-size: 15px;
+    color: black;
+}
+.toggleIcon{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .lists .items{
+        display: none;
+    }
+    .lists .items{
+        display: none;
+    }
+    .lists .navButton{
+        display: none;
+    }
+    .lists .change{
+        display: block;
+    }
+    .lists .change ul{
+        width: 100%;
+        background-color: rgb(185, 185, 58);
+        color: white;
+        display: grid;
+        grid-template-columns: row;
+        position: absolute;
+        top: 70px;
+        left: 0;
+    }
+    .lists .items ul li{
+        height: 50px;
+        margin-left: -10px;
+        display: flex;
+        align-items: center;
+    }
+    .toggleIcon{
+        font-size: 25px;
+        color: gray;
+        display: block;
+        cursor: pointer;
+    }
+}
