@@ -1,0 +1,36 @@
+.advantage {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.advantage .advantageBox{
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 10px;
+}
+.advantage .advantageBox .name{
+    min-height: 70px;
+    font-size: 20px;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advantage .number{
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 94%;
+    bottom: 38px;
+}
+.advantage .number p{
+    height: 100%;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+}

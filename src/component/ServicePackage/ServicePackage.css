@@ -1,0 +1,98 @@
+.package {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.package .packageBg{
+    background: linear-gradient(#011f09, #196812);
+    min-height: 500px;
+    border-radius: 15px;
+}
+.package .head{
+    padding-top: 50px;
+    text-align: center;
+}
+.package .head .title{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+.package .head .title span{
+    color: green;
+}
+.package .head .descriptionDiv{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.package .head .description{
+    max-width: 500px;
+    color: white;
+}
+.package .packages .packageContent{
+    margin-top: -180px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+.package .packages .packageContent img{
+    margin-top: -100px;
+    height: 150px;
+    width: 70%;
+    border-radius: 10px;
+}
+.package .packages .packageContent .name{
+    font-size: 25px;
+    font-weight: 500;
+}
+.package .packages .packageContent .amount span{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+.package .packages .packageContent .amount{
+    font-size: 16px;
+    color: rgb(157, 155, 155);
+}
+.package .packages .packageContent .points{
+    text-align: start;
+    padding-left: 30px;
+    font-size: 20px;
+    color: rgb(142, 141, 141);
+}
+.package .packages .packageContent .points span{
+    color: green;
+}
+.package .packages .packageContent .packageButton{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.package .packages .packageContent button{
+    height: 35px;
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+    color: #196812;
+    font-weight: 500;
+}
+.package .packages .packageContent .button2{
+    height: 35px;
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #196812;
+    font-weight: 500;
+}
+@media screen and (max-width:768px) {
+    .package .packageBg{
+        min-height: 300px;
+    }
+    .package .packages .packageContent{
+        margin-top:10px;
+    }
+    .package .packages .packageContent img{
+        margin-top:0;
+    }
+}
