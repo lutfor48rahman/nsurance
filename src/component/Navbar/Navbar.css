@@ -63,6 +63,7 @@
         position: absolute;
         top: 70px;
         left: 0;
+        z-index: 2;
     }
     .lists .items ul li{
         height: 50px;

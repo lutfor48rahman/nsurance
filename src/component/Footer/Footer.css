@@ -1,0 +1,16 @@
+.footer{
+    margin-top: -100px;
+    min-height: 400px;
+    background-color: green;
+    color: white;
+}
+.main{
+    padding-top: 150px;
+}
+footer h5{
+    font-size: 18px;
+}
+footer h5,
+footer ul li{
+    text-align: center;
+}

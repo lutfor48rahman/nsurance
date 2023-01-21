@@ -104,3 +104,9 @@
     background-color: green;
     color: white;
 }
+
+@media screen and (max-width:768px) {
+    .banner .footerShadow{
+        display: none;
+    }
+}
