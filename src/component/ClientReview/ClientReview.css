@@ -1,0 +1,60 @@
+.review{
+    margin-bottom: 50px;
+    background-color: rgb(248, 247, 247);
+}
+.review .head{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.review .head p{
+    max-width: 570px;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(6, 46, 6);
+}
+.review .head p span{
+    color: green;
+}
+
+.review .reviewBox {
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+}
+.review .reviewBox .headName {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.review .reviewBox .headName p{
+    margin: 0;
+}
+.review .reviewBox .headName .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.review .reviewBox .headName .title{
+    font-size: 14px;
+    color: rgb(165, 163, 163);
+}
+.review .reviewBox .description{
+    margin-top: 15px;
+    font-size: 16px;
+    color: rgb(165, 163, 163);
+}
+.review .reviewBox .headName img{
+    margin-right: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.review .star{
+    color: red;
+    background-color: red;
+}

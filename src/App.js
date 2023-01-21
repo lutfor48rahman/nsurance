@@ -6,6 +6,7 @@ import Services from './component/Services/Services';
 import Insureance from './component/Insureance/Insureance';
 import ServicePackage from './component/ServicePackage/ServicePackage';
 import Advantages from './component/Advantages/Advantages';
+import ClientReview from './component/ClientReview/ClientReview';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Insureance></Insureance>
       <ServicePackage></ServicePackage>
       <Advantages></Advantages>
+      <ClientReview></ClientReview>
     </div>
   );
 }

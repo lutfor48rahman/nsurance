@@ -5,7 +5,7 @@ const Advantages = () => {
   return (
     <div className="advantage">
       <div className="container">
-        <div className="row container">
+        <div className="row g-5 container">
           <div className="col-12 col-lg-5 col-xl-5">
             <div>
             <div className="advantageBox">
@@ -54,9 +54,30 @@ const Advantages = () => {
                     <p className="title">The Advantage Of An Independent Agency Working For You</p>
                     <p className="description">What makes Our service Insurance service different with any finance agency?</p>
                 </div>
-                <div className="row">
+                <div className="row secondRow">
                     <div className="col-12 col-lg-6 col-xl-6">
-
+                        <div className="icon">
+                        <p><i class="fa-sharp fa-solid fa-circle-check"></i></p>
+                            <p> We represent multiple insurance companies</p>
+                        </div>
+                    </div>
+                    <div className="col-12 col-lg-6 col-xl-6">
+                        <div className="icon">
+                          <p><i class="fa-sharp fa-solid fa-circle-check"></i></p>
+                            <p> We are licensed insurance advisors</p>
+                        </div>
+                    </div>
+                    <div className="col-12 col-lg-6 col-xl-6">
+                        <div className="icon">
+                        <p><i class="fa-sharp fa-solid fa-circle-check"></i></p>
+                            <p> We represent multiple insurance companies</p>
+                        </div>
+                    </div>
+                    <div className="col-12 col-lg-6 col-xl-6">
+                        <div className="icon">
+                          <p><i class="fa-sharp fa-solid fa-circle-check"></i></p>
+                            <p> We are licensed insurance advisors</p>
+                        </div>
                     </div>
                 </div>
             </div>
