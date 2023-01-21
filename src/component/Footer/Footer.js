@@ -8,7 +8,7 @@ const Footer = () => {
       <footer class="py-5 ">
         <div class="row g-5 main">
         <div class="col-12 col-lg-4 col-xl-4">
-              <h5>nsurance</h5>
+              <h4><i class="fa-brands fa-mandalorian"></i> nsurance</h4>
               <p>Insurance Incorporated offers comprehensive insurance solutions to individuals, families, and businesses</p>
           </div>
           <div class="col-12 col-lg-2 ">
@@ -21,7 +21,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="col-12 col-lg-1">
+          <div class="col-12 col-lg-2">
             <h5>Business</h5>
             <ul class="nav flex-column">
               
@@ -49,26 +49,20 @@ const Footer = () => {
 
         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
           <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3">
+          <ul class="list-unstyled d-flex social">
+          <li class="ms-3">
               <a class="link-dark" href="#">
-                <svg class="bi" width="24" height="24">
-                  <use href="#twitter" />
-                </svg>
+              <i class="fa-brands fa-instagram"></i>
               </a>
             </li>
             <li class="ms-3">
               <a class="link-dark" href="#">
-                <svg class="bi" width="24" height="24">
-                  <use href="#instagram" />
-                </svg>
+              <i class="fa-brands fa-facebook"></i>
               </a>
             </li>
             <li class="ms-3">
               <a class="link-dark" href="#">
-                <svg class="bi" width="24" height="24">
-                  <use href="#facebook" />
-                </svg>
+              <i class="fa-brands fa-twitter"></i>
               </a>
             </li>
           </ul>

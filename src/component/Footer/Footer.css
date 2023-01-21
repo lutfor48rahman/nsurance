@@ -1,7 +1,7 @@
 .footer{
     margin-top: -100px;
     min-height: 400px;
-    background-color: green;
+    background: linear-gradient(#136628, #073303);
     color: white;
 }
 .main{
@@ -13,4 +13,7 @@ footer h5{
 footer h5,
 footer ul li{
     text-align: center;
+}
+.footer .social li a{
+    color: white;
 }
