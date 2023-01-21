@@ -1,112 +1,136 @@
-.banner{
-    margin-top: 50px;
-    margin-bottom: 70px;
+.banner {
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
-.background{
-    background: linear-gradient(#e66465, #9198e5);
-    border-radius: 15px;
-    position: relative;
+.background {
+  background: linear-gradient(#e66465, #9198e5);
+  border-radius: 15px;
+  position: relative;
 }
-.banner .head{
-    padding-top: 50px;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
+.banner .head {
+  padding-top: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
 }
-.banner .title{
-    display: flex;
-    justify-content: center;
+.banner .title {
+  display: flex;
+  justify-content: center;
 }
-.banner .title p{
-    max-width: 650px;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 50px;
+.banner .title p {
+  max-width: 650px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
 }
-.banner .title p span{
-    color: green;
+.banner .title p span {
+  color: green;
 }
-.banner img{
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
+.banner img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
 }
-.banner .image1{
-    margin-left: -12px;
+.banner .image1 {
+  margin-left: -12px;
 }
-.banner .image2{
-    margin-left: 12px;
+.banner .image2 {
+  margin-left: 12px;
 }
-.banner .midCol{
-    margin-top: 70px;
-    display: flex;
-    justify-content: space-around;
-    justify-items: center;
-    align-items: center;
+.banner .midCol {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
 }
-.banner .midCol .images{
-    display: flex;
+.banner .midCol .images {
+  display: flex;
 }
-.banner .midCol .images img{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
+.banner .midCol .images img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
 .banner .midCol .images .img2,
 .banner .midCol .images .img3,
 .banner .midCol .images .img4,
-.banner .midCol .images .img5{
-    margin-left: -15px;
+.banner .midCol .images .img5 {
+  margin-left: -15px;
 }
-.banner .midCol button{
-    height: 40px;
-    width: 100px;
-    border: none;
-    border-radius: 10px;
-    background-color: green;
-    color: white;
+.banner .midCol button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
 }
-.banner .footerShadow{
+.banner .footerShadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background: white;
+  width: 70%;
+  min-height: 100px;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 190px;
+  bottom: -130px;
+}
+.banner .footerShadow p {
+  margin: 0;
+  padding: 0;
+  margin-right: 135px;
+}
+.banner .footerShadow .shadowContent {
+  text-align: start;
+  margin-left: 20px;
+}
+.banner .footerShadow .shadowContent input {
+  border: none;
+}
+.banner .footerShadow .shadowButton {
+  margin-right: 30px;
+}
+.banner .footerShadow .shadowButton button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .banner .footerShadow {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background: white;
-    width: 70%;
+    width: 100%;
     min-height: 100px;
     margin: auto;
     border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: column;
     align-items: center;
-    position: absolute;
-    left: 190px;
-    bottom: -130px;
-}
-.banner .footerShadow p{
-    margin: 0;
-    padding: 0;
-    margin-right:135px ;
-}
-.banner .footerShadow .shadowContent{
-    text-align: start;
-    margin-left: 20px;
-}
-.banner .footerShadow .shadowContent input{
-    border: none;
-}
-.banner .footerShadow .shadowButton{
-    margin-right: 30px;
-}
-.banner .footerShadow .shadowButton button{
-    height: 40px;
-    width: 100px;
-    border: none;
+    position: relative;
+    left: 0;
+    bottom: 0px;
+  }
+  .banner .footerShadow .shadowContent input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgb(176, 174, 174);
     border-radius: 10px;
-    background-color: green;
-    color: white;
-}
-
-@media screen and (max-width:768px) {
-    .banner .footerShadow{
-        display: none;
-    }
+  }
+  .banner .footerShadow .shadowButton {
+    padding-bottom: 10px;
+    text-align: center;
+  }
 }
